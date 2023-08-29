@@ -1,0 +1,239 @@
+body {
+  background-color: #0e0f34;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.imageback {
+  position: absolute;
+  background-image: url("https://wallpapercave.com/wp/wp11188121.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+
+}
+
+
+
+
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 1360px;
+}
+
+
+.mainEx {
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 700px;
+}
+
+.theMain {
+  width: 900px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: #202746;
+}
+
+.theExtraction {
+  position: relative;
+  top: 50px;
+  width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lololol {
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+  resize: none;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  height: 500px;
+  font-weight: 700;
+  border: none;
+  color: rgb(58, 58, 156);
+  background-color: rgba(244, 244, 244, 0.808);
+  overflow-y: auto;
+  width: 585px;
+  outline: none;
+}
+
+
+.lololol::-webkit-scrollbar {
+  width: 5px;
+}
+
+.bottom {
+  position: relative;
+  width: 600px;
+  background-color: #202746;
+  height: 630px;
+  margin-left: auto;
+  border-radius: 10px;
+  margin-right: auto;
+  text-align: center;
+  top: -90px;
+  color: white;
+}
+
+.bottom h1 {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 10px;
+  font-size: 40px;
+}
+
+.texts {
+  position: relative;
+  top: 10px;
+}
+
+.bottom p {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.bottom h2 {
+  font-size: 17px;
+  color: darkred;
+}
+
+.thetutorial {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.oper {
+  font-size: 18px;
+  color: darkgoldenrod;
+}
+
+.nosupport {
+  position: absolute;
+  z-index: 100;
+  top: 25%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  border-radius: 10px;
+  height: 400px;
+  background-color: #0d0d0d;
+  display: none;
+}
+
+.nosupport h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+.nosupport p {
+  position: relative;
+  font-size: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 270px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 600;
+}
+
+.nosupport button {
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+  top: 20px;
+  width: 105px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+.nosupport .homebtn {
+  margin-right: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosupport .discordbtn {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.nosupport a {
+  text-decoration: none;
+}
+
+@media only screen and (max-height: 560px) {
+
+  .nosupport {
+   top: 50px;
+  }
+}
+
+@media only screen and (max-height: 560px) {
+
+  .nosupport {
+   top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .mainEx {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .nosupport {
+    display: block;
+  }
+
+
+  html,
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url("https://wallpapercave.com/wp/wp11188121.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+
+}
